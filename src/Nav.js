@@ -1,7 +1,7 @@
 import React from 'react';
-import './App.css';
 import { Link } from 'react-router-dom';
 
+import './App.css';
 
 function Nav() {
     return (
@@ -20,7 +20,7 @@ function Nav() {
                 <Link to="/page2">
                     <li>page2</li>
                 </Link>
-                
+
             </ul>
         </nav>
     );

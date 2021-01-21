@@ -1,4 +1,5 @@
 import React from 'react';
+
 import './App.css';
 import Nav from './Nav';
 import page1 from './page1';
@@ -21,5 +22,5 @@ function App() {
     </Router>
   );
 }
-  
+
 export default App;
