@@ -10,23 +10,23 @@ function Nav() {
 
             <ul className="nav-links">
 
-                <Link to="/components/Home">
+                <Link to="/">
                     <li>Home</li>
                 </Link>
 
-                <Link to="/components/Blog">
+                <Link to="/Blog">
                     <li>Blog</li>
                 </Link>
 
-                <Link to="/components/Community">
+                <Link to="/Community">
                     <li>Community</li>
                 </Link>
 
-                <Link to="/components/Tutorial">
+                <Link to="/Tutorial">
                     <li>Tutorial</li>
                 </Link>
 
-                <Link to="/components/Docs">
+                <Link to="/Docs">
                     <li>Docs</li>
                 </Link>
                 

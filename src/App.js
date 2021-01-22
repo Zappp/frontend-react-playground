@@ -16,11 +16,11 @@ function App() {
       <div className="App">
         <Nav />
         <Switch>
-          <Route path="/components/Home" exact component={Home} />
-          <Route path="/components/Blog" component={Blog} />
-          <Route path="/components/Community" component={Community} />
-          <Route path="/components/Docs" component={Docs} />
-          <Route path="/components/Tutorial" component={Tutorial} />
+          <Route exact path="/" component={Home} />
+          <Route path="/Blog" component={Blog} />
+          <Route path="/Community" component={Community} />
+          <Route path="/Docs" component={Docs} />
+          <Route path="/Tutorial" component={Tutorial} />
         </Switch>
       </div>
     </Router>
