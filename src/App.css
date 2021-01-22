@@ -2,10 +2,6 @@
   text-align: center;
 }
 
-ul {
+ul.nav-links {
   list-style-position: inside;
-}
-
-.nav-links{
-  color: brown;
 }
