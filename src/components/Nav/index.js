@@ -1,38 +1,36 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 import './../../App.css';
+import './../Nav/index.css';
 
 function Nav() {
-    return (
-        <nav>
-            <h1>Example React App</h1>
+  return (
+    <nav className="nav">
 
-            <ul className="nav-links">
+        <NavLink to="/" activeClassName="logo">
+           Home 
+        </NavLink>
 
-                <Link to="/">
-                    <li>Home</li>
-                </Link>
+      <div className="bar">
+        <NavLink to="/Blog" activeClassName="link">
+           Bar 
+        </NavLink>
 
-                <Link to="/Blog">
-                    <li>Blog</li>
-                </Link>
+        <NavLink to="/Community" activeClassName="link">
+          Community
+        </NavLink>
 
-                <Link to="/Community">
-                    <li>Community</li>
-                </Link>
+        <NavLink to="/Tutorial" activeClassName="link">
+          Tutorial
+        </NavLink>
 
-                <Link to="/Tutorial">
-                    <li>Tutorial</li>
-                </Link>
+        <NavLink to="/Docs" activeClassName="link">
+          Docs 
+        </NavLink>
+      </div>
 
-                <Link to="/Docs">
-                    <li>Docs</li>
-                </Link>
-                
-            </ul>
-            
-        </nav>
-    );
+    </nav >
+  );
 }
 export default Nav;

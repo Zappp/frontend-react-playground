@@ -1,4 +1,6 @@
 import React from 'react';
+
+import './../Tutorial/index.css';
 import './../../App.css';
 
 function Tutorial() {

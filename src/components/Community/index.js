@@ -1,4 +1,6 @@
 import React from 'react';
+
+import './../Community/index.css';
 import './../../App.css';
 
 function Community() {
