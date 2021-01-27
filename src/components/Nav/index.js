@@ -26,21 +26,23 @@ function Nav() {
         </Link>
 
         <div className="nav-bar">
-          <NavLink to="/Blog" activeClassName="active-link">
-            Blog
-        </NavLink>
-
-          <NavLink to="/Community" activeClassName="active-link">
-            Community
-        </NavLink>
-
-          <NavLink to="/Tutorial" activeClassName="active-link">
-            Tutorial
-        </NavLink>
 
           <NavLink to="/Docs" activeClassName="active-link">
             Docs
-        </NavLink>
+          </NavLink>
+
+          <NavLink to="/Tutorial" activeClassName="active-link">
+            Tutorial
+          </NavLink>
+
+          <NavLink to="/Blog" activeClassName="active-link">
+            Blog
+          </NavLink>
+
+          <NavLink to="/Community" activeClassName="active-link">
+            Community
+          </NavLink>
+
         </div>
       </div>
     </nav >
